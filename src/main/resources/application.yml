@@ -1,0 +1,17 @@
+spring:
+  h2:
+    console:
+      path: /h2-managing-panel
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: username
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+backendapi:
+  app:
+    jwtExpirationMs: 8640000
+    jwtSecret: thisprojectdemoforspring3.2.3tolearnmoreaboutspringframework.Itwasusedh2databasetosaveinformationondatabase
